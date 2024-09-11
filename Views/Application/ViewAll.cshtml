@@ -1,0 +1,21 @@
+﻿
+<table class="table">
+    <thead class="thead-light">
+        <tr>
+            <th scope="col">Student Name</th>
+            <th scope="col">Submission Time</th>
+            <th scope="col">Requested Year</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td><a href="/student/index/@item.StudentID">@item.StudentName </a></td>
+                <td>@item.AppSup</td>
+                <td>@item.Appreq</td>
+            </tr>
+        }
+
+    </tbody>
+</table>

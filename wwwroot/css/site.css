@@ -1,0 +1,63 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color:#ECEDF2;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+b{
+
+    color:red;
+
+}
+
+.formBox {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin: auto;
+    box-shadow: 13px 10px 25px -8px rgba(0,0,0,0.42);
+
+
+}
+.formBox h2 {
+
+    display:flex;
+    justify-content:center;
+    
+
+}
+
+.formBox input,select{
+
+    margin-bottom:10px;
+}

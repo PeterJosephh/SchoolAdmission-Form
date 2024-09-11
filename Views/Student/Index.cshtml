@@ -1,0 +1,17 @@
+﻿@model Student
+<div style="width:800px" class=" formBox">
+    <h3>Student Name :@Model.Name</h3>
+    <h4>Student Gender :</h4>
+        @if (Model.Gender == 'M'){ <h4>Male</h4>}
+        else {<h4>Female</h4>}
+    <h4>Date Of Birth: @Model.DateOfBirth.ToString("yyyy-M-dd")</h4>
+    <h4>Natunality ID: @Model.NationalityId</h4>
+    <h5>City of Birth: @Model.CityOfBirth Address: @Model.Address</h5>
+    <h5>Phone Number: @Model.PhoneNumber</h5>
+
+    Applications:
+
+
+
+
+</div>
